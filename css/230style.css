@@ -2,6 +2,16 @@
 h1, h2, li, footer, p{
     font-family: 'Signika', sans-serif;
 }
+header{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #BF3952;
+  color: white;
+  border-radius: 6px;
+  padding: 1em;
+}
  footer{
     color: white;
     background-color: #BF3952;
@@ -16,16 +26,6 @@ body{
 li{
    line-height: 1.5em; 
    font-size: 20px;
-}
-header{
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  background-color: #BF3952;
-  color: white;
-  border-radius: 6px;
-  padding: 1em;
 }
 h1{
     font-size: 50px;
