@@ -1,7 +1,7 @@
 //copywrite date
 const d= new Date();
 const year = d.getFullYear();
-document.querySelector('#currentyear').textContent = ` ${year} | Jessica Larsson | WDD 230`;
+document.querySelector('#currentyear').textContent = ` ${year} | Jessica Larsson | Utah`;
 
 //last modified
 const lastmod = document.querySelector('#lastmod');
