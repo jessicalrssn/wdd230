@@ -3,21 +3,21 @@ h1, h2, li, footer, p{
     font-family: 'Signika', sans-serif;
 }
 header{
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: auto 1fr;
-  align-items: center;
+  text-align: center;
   background-color: #BF3952;
   color: white;
-  border-radius: 6px;
   padding: 1em;
+  
 }
  footer{
     color: white;
     background-color: #BF3952;
     padding: 10px;
     text-align: center;
-    border-radius: 6px;
+   
+    
+  
+    
 }
 body{
   max-width: 600px;
@@ -25,11 +25,15 @@ body{
 }
 li{
    line-height: 1.5em; 
-   font-size: 20px;
+   font-size: 1rem;
 }
 h1{
-    font-size: 50px;
+    font-size: 2rem;
+}
+
+h2{
+  text-align: center;
 }
 #currentyear{
-    font-size: 20px;
+    font-size: 1rem;
 }
