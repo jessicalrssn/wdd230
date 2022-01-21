@@ -1,0 +1,39 @@
+@media only screen and (min-width: 32.5em) {
+
+    	nav {
+		flex-direction: column;
+	}
+    
+nav {
+	background-color: #43cec2;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-list{
+    display:flex;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+main{
+    display:grid;
+    grid-gap: 30px;
+}
+
+
+.top{grid-column:1/3;}
+
+.peron1 person2{
+    grid-column: 2/3;
+    padding: 20px;
+}
+header, nav, main, footer {
+	max-width: 960px;
+	margin: 0 auto;}
+}
+footer{
+margin-top: 50px;
+}
