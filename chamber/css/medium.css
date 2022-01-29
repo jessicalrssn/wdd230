@@ -1,0 +1,60 @@
+@media only screen and (min-width: 40rem){
+
+.social{
+    grid-column: 3/4;
+}
+header h2{
+     font-size: 1rem;
+ }
+ div h1{
+     font-size: 2rem;
+ }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    padding: 20px;
+}
+.hero{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+.weather{
+    grid-column: 1/2;
+}
+.join{
+    grid-column: 1/2;
+}
+.spotlight{
+    grid-column: 4/5;
+    grid-row:1/4;
+    }
+.news{
+    grid-column: 2/4;
+}
+.upperFooter{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+}
+.left-side{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+}
+
+.left-side img{
+    width: 100px;
+    justify-self: right;
+}
+.word-group{
+    justify-self: left;
+    text-align: left;
+}
+.right-side{
+   text-align: left;
+}
+}

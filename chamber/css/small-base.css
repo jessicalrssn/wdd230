@@ -1,0 +1,173 @@
+
+nav, h1, h2, date{
+    font-family: 'Archivo', sans-serif;
+}
+p, section{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #9ec6ce;
+    color: #112a46;
+ 
+}
+.headings{
+    text-align: center;
+}
+.social{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.social img{
+    width: 40px;
+    height: auto;
+}
+
+
+
+nav{
+    grid-column: 4/5;
+}
+
+date{
+    grid-column: 1/5;
+    text-align: center;
+    background-color: #0d7085;
+     width: 100%;
+     padding: 10px;
+     color: white;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    
+}
+
+ 
+ div h1{
+     margin: 0;
+     font-size: 1.5rem;
+   
+ }
+header h2{
+     font-size: 0;
+ }
+
+
+/*--------navigation--------*/
+
+#hamburgerButton{
+    display: flex;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #112a46;
+}
+
+
+nav ul{
+    display: none;
+     list-style-type: none;
+    padding: 0px;
+    margin: 0;
+     background-color: #9ec6ce; 
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #112a46; 
+    
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+
+nav ul.open{
+    display: block;
+    padding: 20px;
+    position: fixed;   
+}
+nav a{
+    padding: 50;
+}
+
+
+
+
+#hamburgerButton span:nth-child(1){
+display: block;
+}
+#hamburgerButton span:nth-child(2){
+display: none;
+}
+
+#hamburgerButton.open span:nth-child(1){
+display: none;
+}
+#hamburgerButton.open span:nth-child(2){
+display: block;
+}
+/*--------end navigation---------*/
+
+
+/*--------main--------*/
+
+main section{
+    padding: 50px;
+    background-color: #d3d3d3;
+     margin: 5px;
+}
+
+
+main p{
+    padding: 20px;
+    border: 1px solid gray;
+}
+main{
+    display:block;
+   
+}
+
+footer{
+    background-color: #0d7085;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.upperFooter{
+    display: block;
+    text-align: center;
+    justify-self: end;
+}
+
+footer .bottomFooter{
+text-align: center;
+}
+
+footer h2{
+    font-size: 1.2rem;
+}
+.map{
+    color: #e7c736;
+}
+
+ul#primarynav.open{
+    display: block;
+}
+
+
