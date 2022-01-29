@@ -1,0 +1,21 @@
+@media only screen and (min-width: 64rem){
+ #primaryNav{
+    display: flex;
+    position: relative;
+}
+nav{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+.social{
+    grid-column: 4/5;
+}
+#hamburgerButton{
+    display: none;
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+}
