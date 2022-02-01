@@ -144,8 +144,8 @@ main{
 }
 
 footer{
-    background-color: #0d7085;
-    color: white;
+    background-color: #9ec6ce;
+    color: #112a46;
     padding-bottom: 20px;
 }
 
@@ -163,7 +163,7 @@ footer h2{
     font-size: 1.2rem;
 }
 .map{
-    color: #e7c736;
+    color: #0d7085;
 }
 
 ul#primarynav.open{
