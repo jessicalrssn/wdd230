@@ -50,9 +50,7 @@ main{
 .spot3{
 border: 1px solid #c5f0ec;
     margin: 20px;
-    background-color: #c5f0ec;
-    
-  
+    background-color: #c5f0ec; 
     
     /* box-shadow: 3px 4px 10px rgba(0,0,0,0.5);*/
 }

@@ -287,9 +287,7 @@ ul#primarynav.open{
 #jsDate span:nth-child(1){
 display: block;
 }
-#hamburgerButton span:nth-child(2){
-display: none;
-}
+
 
 /*end jsDate*/
 
@@ -332,10 +330,6 @@ main{
     margin:5px;
     padding: 5px;
 }
-
-
-
-
 
 .weather{
     background-color: #112a46;
