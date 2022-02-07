@@ -7,9 +7,8 @@
  let dayOfWeek= now.getDay();
 
  //processing:check if the day is 1 or 2?
- if (dayOfWeek ==4 || dayOfWeek == 2 ){
-     message = `🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m`;
+ if (dayOfWeek ==1 || dayOfWeek == 2 ){
+  let banner = document.getElementById('banner');
  }
 
  //output
- document.getElementById('jsDate').innerHTML =message;

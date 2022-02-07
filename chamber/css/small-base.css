@@ -116,7 +116,10 @@ nav a{
     width: 100%;
      padding: 0; 
  }
-
+nav ul li.active a{
+    background-color: #2e7595;
+    color: white;
+}
 
 
 #hamburgerButton span:nth-child(1){
@@ -276,7 +279,7 @@ ul#primarynav.open{
 }
 
 /*jsDate javascript to show on tuesdays and wednesdays*/
-#jsDate{
+#banner{
     background-color: #e7c736;
     padding: .5rem;
     text-align: center;
