@@ -281,9 +281,10 @@ ul#primarynav.open{
 /*jsDate javascript to show on tuesdays and wednesdays*/
 #banner{
     background-color: #e7c736;
-    padding: .5rem;
+    padding: .6rem;
     text-align: center;
     font-family: 'Archivo', sans-serif;
+    display: none;
     
 }
 
@@ -339,9 +340,10 @@ main{
 }
 .join{
     display: none;
+    color: white;
 }
 
 p a{
     color: #2e7595;  
 }
-
+ 
