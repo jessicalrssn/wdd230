@@ -284,12 +284,9 @@ ul#primarynav.open{
     padding: .5rem;
     text-align: center;
     font-family: 'Archivo', sans-serif;
-    display: none;
+    
 }
 
-#jsDate span:nth-child(1){
-display: block;
-}
 
 
 /*end jsDate*/
