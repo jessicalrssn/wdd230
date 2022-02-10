@@ -32,7 +32,8 @@ lastmod.textContent = `Last Updated: ${document.lastModified}`;
 
 
 //-----popup banner----/
- if (d === 1 || d === 2 ){
+let day=d.getDay();
+ if (day === 1 || day === 2 ){
   let banner = document.querySelector('#banner');
   banner.style.display="block";
  } 
