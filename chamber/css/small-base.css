@@ -159,14 +159,14 @@ display: block;
     color: #112a46;
    margin: 10px;
     text-align: center;
-    padding: 20px;
+
     font-size: 1.5rem;  
 }
 .weather h3 {
     color: white;
    margin: 10px;
     text-align: center;
-    padding: 20px;
+    
     font-size: 1.5rem;  
 }
 .join h3 {
@@ -179,7 +179,7 @@ display: block;
     color: white;
 margin: 10px;
     text-align: center;
-    padding: 20px;
+   
     font-size: 1.5rem;  
     margin: 0;
 }
@@ -187,13 +187,12 @@ margin: 10px;
     color: #112a46;
     background-color: #c5f0ec;
     text-align: center;
-    padding: 20px;
+   
     font-size: 1.5rem; 
     margin: 10px; 
 }
 
 .event h4{
-    padding: 20px;
     text-align: center;
 }
 
@@ -235,16 +234,16 @@ ul#primarynav.open{
     display: block;
 }
 
-.heropic{
+picture.heropic img{
     width:100%;
-    height: 100%
+    
     
 }
 
 .hero{
     position: relative;
     margin: 5px;
-    background-color: #2e7595;
+    
 
 }
 
@@ -256,10 +255,13 @@ ul#primarynav.open{
     color: #112a46;
     font-size: 2rem;
 }
+.headerOverlay h2{
+    margin-top: 10px;;
+}
 
 .buttonOverlay{
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     right: 30px;
 }
 
@@ -273,8 +275,8 @@ ul#primarynav.open{
 
 }
 
-.joinButton:hover{
-    background-color: #43cec2;
+.joinButton:hover, .joinSection:hover{
+    background-color: #c5f0ec;
     
 }
 
@@ -305,10 +307,6 @@ main{
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   font-family: 'Archivo', sans-serif;
 
-}
-.joinSection:hover{
-    background-color: #43cec2;
-    
 }
 
 .spot1{
@@ -343,7 +341,17 @@ main{
     color: white;
 }
 
-p a{
-    color: #2e7595;  
+.event a{
+    color: #112a46;  
 }
+.news a{
+    color: white;
+}
+
+p #t{
+    font-size: 2rem;
+
+}
+
+
  
