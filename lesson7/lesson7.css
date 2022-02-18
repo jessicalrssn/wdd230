@@ -10,5 +10,5 @@ body{
 
  img {
   filter: blur(0em);
-  transition: filter 0.5s;
+  transition: filter 3.5s;
 }
