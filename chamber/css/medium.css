@@ -113,5 +113,13 @@ main{
 .discoverGrid section{
     grid-column: 2/3;
 }
+.discoverGrid picture img{
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+.discoverGrid picture:hover img{
+	transform: scale(.95);
+}
+
 
 }
