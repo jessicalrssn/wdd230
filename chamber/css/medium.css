@@ -101,9 +101,17 @@ main{
 }
 .discoverGrid{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     margin-bottom: 30px;
 }
-
+.discoverh1{
+    grid-column: 1/4;
+}
+.discoverGrid picture{
+    grid-column: 2/3;
+}
+.discoverGrid section{
+    grid-column: 2/3;
+}
 
 }
