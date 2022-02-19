@@ -269,7 +269,7 @@ picture.heropic img{
     border: none;
   border-radius: 20px;
   background-color: #e7c736;
-  padding: 1rem;
+  padding: .8rem;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   font-family: 'Archivo', sans-serif;
 
@@ -303,7 +303,7 @@ main{
        border: none;
   border-radius: 20px;
   background-color: #e7c736;
-  padding: 1rem 40px 1rem 40px;
+  padding: .8rem 40px .8rem 40px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   font-family: 'Archivo', sans-serif;
 
