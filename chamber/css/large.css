@@ -83,5 +83,19 @@ border: 1px solid #c5f0ec;
     padding: 20px;
     
 }
+.discoverGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+.discoverh1{
+    grid-column: 1/4;
+}
+.discoverGrid picture{
+    grid-column: 2/3;
+}
+.discoverGrid section{
+    grid-column: 2/3;
+}
 
 }

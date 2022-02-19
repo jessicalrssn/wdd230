@@ -99,4 +99,11 @@ main{
 .lowerJoinButton{
     grid-row: 2/3;
 }
+.discoverGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+}
+
+
 }

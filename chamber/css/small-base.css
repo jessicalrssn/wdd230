@@ -235,7 +235,9 @@ ul#primarynav.open{
 }
 
 picture.heropic img{
-    width:100%;  
+    width:100%; 
+    height: 100%;
+    object-fit: cover; 
 }
 
 .hero{
@@ -353,21 +355,22 @@ p #t{
 
 /*discover page*/
 .discoverGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+display: block;
     margin-bottom: 30px;
 }
+.discoverGrid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .discoverh1{
-    grid-column: 1/4;
+   
     text-align: center;
     font-size: 3rem;
     color: #112a46;
 }
-.discoverGrid picture{
-    grid-column: 2/3;
-}
+
 .discoverGrid section{
-    grid-column: 2/3;
     color: #112a46;
 }
 .discoverGrid section h2{
@@ -380,6 +383,8 @@ p #t{
 .discoverGrid p{
     margin-bottom: 40px;
 }
+
+
 /*placeholder---lazy load---*/
  img[data-src] {
   filter: blur(0.2em);
