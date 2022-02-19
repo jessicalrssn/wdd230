@@ -352,62 +352,24 @@ p #t{
 }
 
 /*discover page*/
+.discoverGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
 .discoverh1{
-    grid-column: 1/5;
+    grid-column: 1/4;
     text-align: center;
     font-size: 3rem;
+    color: #112a46;
 }
-.boat-img{
+.discoverGrid picture{
     grid-column: 2/3;
 }
-.boat{
-    grid-column:3/4;
-}
-.raspberry{
+.discoverGrid section{
     grid-column: 2/3;
+    color: #112a46;
 }
-.rasp-img{
-    grid-column: 3/4;
+.discoverGrid section h2{
+    text-align: center;
 }
-.surf-img{
-    grid-column: 2/3;
-}
-.surf{
-  grid-column: 3/4;  
-}
-.atv{
-    grid-column: 2/3;
-}
-.atv-img{
-    grid-column: 3/4;
-}
-.restaurant-img{
-   grid-column: 2/3;   
-}
-.restaurant{
- grid-column: 3/4;   
-}
- .bike{
-     grid-column: 2/3;
- }
- .bike-img{
-     grid-column: 3/4;
- }
- .car-img{
-     grid-column: 2/3;
- }
- .car{
-     grid-column: 3/4;
- }
- .marina{
-     grid-column: 2/3;
- }
- .marina-img{
-     grid-column: 3/4;
- }
- .bear-img{
-     grid-column: 2/3;
- }
- .bear{
-     grid-column: 3/4;
- }

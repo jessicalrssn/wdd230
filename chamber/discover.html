@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/menu.js"></script>
-    <script defer src= "js/windchill.js"></script>
+    <script defer src= "js/lazyload.js"></script>
     
    
 </head>
@@ -48,27 +48,29 @@
         </nav> 
          </header>
           <date></date>
-          <main>
+          <main class="discoverGrid">
               <h1 class="discoverh1">Discover Bear Lake!</h1>
                <picture class="boat-img">
-                  <img src="images/boating.jpg">
+                  <img src="images/placeholder.jpg" data-src="images/boating.jpg" alt="Sail boat on Bear Lake">
               </picture>
               <section class="boating">
-                  <h2>Enjoy the View</h2>
-                  <p>from the mountains to the bright blue water, Bear Lake is not short on beautiful views.</p>
+                  <h2>Bear Lake Views</h2>
+                  <p>from the mountains to the bright blue water, Bear Lake is not short on beautiful views.
+
+                  </p>
               </section>
 
+                <picture class="rasp-img">
+                  <img src="images/placeholder.jpg" data-src="images/raspberry.jpg" alt="A box of fresh raspberries">
+              </picture>
               <section class="raspberry">
                   <h2>Raspberry Days</h2>
-                  <p>Bear lake is famous for raspberries. get a famous raspberry shake and visit 
-                      Bear Lake during their annual raspberry days typically taking place early august. </p>
+                  <p>Bear lake is famous for raspberries. Indulge in a famous raspberry shake and visit 
+                      Bear Lake during their annual Raspberry Days, typically taking place in early August. </p>
               </section>
-                <picture class="rasp-img">
-                  <img src="images/raspberry.jpg" alt="A box of fresh raspberries">
-              </picture>
               
                 <picture class="surf-img">
-                  <img src="images/surf.jpg" alt="jetski">
+                  <img src="images/placeholder.jpg" data-src="images/surf.jpg" alt="Wakeboarding on Bear Lake">
               </picture>
               <section class="surf">
                   <h2>Water Sports</h2>
@@ -76,16 +78,16 @@
                       get out on the water and try some of the awesome watersports available.</p>
               </section>
 
+                 <picture class="atv-img">
+                  <img src="images/placeholder.jpg" data-src="images/atv.jpg" alt=" ATV in the mountains">
+              </picture>
               <section class="atv">
                   <h2>ATV</h2>
                   <p>Get off the beach and rent an ATV to see some amazing views in the mountains of Bear Lake</p>
               </section>
-              <picture class="atv-img">
-                  <img src="images/atv.jpg" alt=" ATV in mountains">
-              </picture>
-              
+           
               <picture class="restaurant-img">
-                  <img src="images/zips.jpg" alt="Zips restaurant in Bear Lake">
+                  <img src="images/placeholder.jpg" data-src="images/zips.jpg" alt="Zips restaurant in Bear Lake">
               </picture>
               <section class="restaurant">
                   <h2>Enjoy a Restaurant</h2>
@@ -94,32 +96,32 @@
                   </P>
               </section>
 
+              <picture class="bike-img">
+                  <img src="images/placeholder.jpg" data-src="images/bike.jpg" alt="Mountain biking in Bear Lake">
+              </picture>
                 <section class="bike">
                   <h2>Mountain Biking</h2>
                   <p>Get back into the mountains and discover some amazing biking trails along the way.</p>
               </section>
-              <picture class="bike-img">
-                  <img src="images/bike.jpg" alt="Mountain biking in Bear Lake">
-              </picture>
             
               <picture class="car-img">
-                  <img src="images/gocart.jpg">
+                  <img src= "images/placeholder.jpg" data-src="images/gocart.jpg">
               </picture>
               <section class="car">
                   <h2>Activities</h2>
                   <p>there are many other activities to partake in including the new ropes course and go carts in garden city.</p>
               </section>
 
+                   <picture class="marina-img">
+                  <img src="images/placeholder.jpg" data-src="images/marina.jpg" alt="Bear Lake Marina">
+              </picture>
                 <section class="marina">
                   <h2>Marina</h2>
                   <p>This is where all your boating needs are met. launch your boat or admire the awesome sail boats in the harbor.</p>
               </section>
-              <picture class="marina-img">
-                  <img src="images/marina.jpg">
-              </picture>
            
               <picture class="bear-img">
-                  <img src="images/bear.jpg">
+                  <img src="images/placeholder.jpg" data-src="images/bear.jpg" alt="Bear carved out of wood">
               </picture>
               <section class="bear">
                   <h2>Bears</h2>
