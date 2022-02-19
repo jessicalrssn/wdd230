@@ -372,8 +372,15 @@ p #t{
 }
 .discoverGrid section h2{
     text-align: center;
+    margin-top: 0px;
+    background-color: #2e7595;
+    padding: 10px;
+    color: white;
 }
-
+.discoverGrid p{
+    margin-bottom: 40px;
+}
+/*placeholder---lazy load---*/
  img[data-src] {
   filter: blur(0.2em);
 }
@@ -382,3 +389,4 @@ p #t{
   filter: blur(0em);
   transition: filter 0.5s;
 }
+/*-----end lazy load---*/
