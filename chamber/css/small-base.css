@@ -383,6 +383,10 @@ display: block;
 .discoverGrid p{
     margin-bottom: 40px;
 }
+.visited{
+    font-weight: bold;
+    text-align: center;
+}
 
 
 /*placeholder---lazy load---*/

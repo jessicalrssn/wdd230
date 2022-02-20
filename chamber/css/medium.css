@@ -120,6 +120,8 @@ main{
 .discoverGrid picture:hover img{
 	transform: scale(.95);
 }
-
+.visited{
+    grid-column: 2/3;
+}
 
 }
