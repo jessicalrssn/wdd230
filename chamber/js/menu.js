@@ -10,7 +10,7 @@ x.onclick= toggleMenu;
 
 
 //current date-------
-const datefield = document.querySelector("date");
+const datefield = document.querySelector(".date");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(

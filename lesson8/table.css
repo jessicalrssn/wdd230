@@ -1,0 +1,56 @@
+:root {
+	--back: hsla(173, 58%, 28%, .5);
+  --back2: hsla(173, 58%, 28%, 1);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,2%,68%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 90%, 1);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 5px 5px 8px var(--shadow);
+	border-collapse: collapse;
+   font-family: 'Ubuntu', sans-serif;
+}
+tr:first-child th {
+	background-color: var(--back);
+    font-size: 30px;
+    color: black;
+}
+
+
+th, td {
+	padding: 8px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+    color: white;
+
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+#highlight{
+	background-color: var(--back2);
+    color: white;
+}
+#bottom{
+    background-color: var(--back);
+    color: black;
+    font-weight: normal;
+    font-size: .8em;
+}
+#blackfriday{
+    font-style: italic;
+}

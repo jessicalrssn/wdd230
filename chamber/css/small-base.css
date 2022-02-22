@@ -1,5 +1,5 @@
 
-nav, h1, h2, date{
+nav, h1, h2, .date{
     font-family: 'Archivo', sans-serif;
 }
 p, section{
@@ -35,7 +35,7 @@ nav{
     grid-column: 4/5;
 }
 
-date{
+.date{
     display:grid;
     grid-column: 1/5;
     text-align: center;
