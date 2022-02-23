@@ -1,6 +1,6 @@
 :root {
-	--back: hsla(173, 58%, 28%, .5);
-  --back2: hsla(173, 58%, 28%, 1);
+	--back: hsla(180, 71%, 32%, .5);
+  --back2: hsla(180, 71%, 32%, 1);
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
 	--border: hsl(0,0%,20%);

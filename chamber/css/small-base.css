@@ -1,8 +1,8 @@
 
-nav, h1, h2, .date{
+nav, h1, h2, h3, .date{
     font-family: 'Archivo', sans-serif;
 }
-p, section{
+p, section, form{
     font-family: 'Montserrat', sans-serif;
 }
 
