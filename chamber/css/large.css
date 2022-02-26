@@ -105,5 +105,8 @@ form label.sbs{
 form label.top input, form label.top textarea{
     width: 100%;
 }
+.thanks{
+    margin: 40px 50px;
+}
 
 }
