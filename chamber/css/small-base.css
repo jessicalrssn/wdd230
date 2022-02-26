@@ -276,7 +276,7 @@ picture.heropic img{
 }
 
 .joinButton:hover, .joinSection:hover{
-    background-color: #c5f0ec;
+    background-color: #cdb02d;
     
 }
 
@@ -308,6 +308,11 @@ main{
   font-family: 'Archivo', sans-serif;
 
 }
+#lowbutton, #highbutton{
+    text-decoration: none;
+    color: #112a46;
+}
+
 
 .spot1{
     border: 1px solid #c5f0ec;
@@ -372,6 +377,8 @@ display: block;
 
 .discoverGrid section{
     color: #112a46;
+    background-color: #c5f0ec;
+
 }
 .discoverGrid section h2{
     text-align: center;
@@ -400,4 +407,110 @@ display: block;
 }
 /*-----end lazy load---*/
 
+/*--------Join Form-------*/
+form fieldset{
+    margin: 1rem;
+    border: 1px solid #112a46;
+   padding: .5rem 2%;
+   
+  
+   
+}
+form legend{
+    color: #112a46;
+    margin: .5rem;
+    font-family: 'Archivo', sans-serif;
+}
+form label.top, form div{
+display:block;
+padding-top: 1rem;
+font-size: .8rem;
+}
+form label.top input, form label.top textarea{
+display: block;
+font-size: 16px;
+border: solid 1px #999;
+border-radius: 4px;
+padding: .75rem;
+color: black;
+max-width: 20rem;
+background-color: white;
+}
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #112a46;
+}
+form input.submitButton{
+    border: none;
+    background-color: #e7c736;
+    border-radius: 20px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Archivo', sans-serif;
+        box-shadow: 5px 5px 5px rgb(0 0 0 / 50%)
+}
+form label.top input:required{
+    border-left: solid 3px red;
+}
+form label.top input:required:valid{
+    border-left: solid 3px green;
+}
+form{
+    background-color: #c5f0ec;
+    margin: 15px;
+   
+}
+form input.submitButton:hover{
+background-color: #cdb02d;
+}
+/*--------End Join Form-------*/
+.joinh1{
+    color: #112a46;
+    font-size: 48px;
+    grid-column: 1/3;
+    text-align: center;
+}
+.joingrid h2{
+    text-align: center;
+}
+
+.membership h2 {
+    text-align: center;
+}
+.joingrid{
+    display: block;
+   
+}
+.np, .silver{
+    background-color:#112a46 ;
+    padding: 10px;
+    padding-left: 25px;
+    color: white;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3rem;
+}
+.bronze, .gold{
+    background-color: #2e7595;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3rem;
+    color: white;
+}
+
+/*Thanks*/
+.thanksh1, .thanksp{
+    text-align:center;
+    color: white;
+}
+.thanks{
+    margin: 90px 100px 90px 100px;
+    padding: 40px;
+    background-color: #112a46;
+}
 

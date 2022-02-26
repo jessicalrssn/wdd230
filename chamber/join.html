@@ -49,39 +49,77 @@
         </nav> 
          </header>
           <div class="date"></div>
-          <main>
-              <h1>Join the Bear Lake Chamber of Commerce</h1>
+          <main class="joingrid">
+              <h1 class="joinh1">Join the Bear Lake Chamber of Commerce</h1>
+             
               <form method="get" action="thanks.html">
                   <fieldset>
-                      <legend>Applicant Information</legend>
-                     <label>First Name*<input type="text" name="fname" required></label>
-                     <label>Last Name*<input type="text" name="lname" required></label>
-                      <label>Cell Number*<input type="tel" name="phone" required placeholder="1235551234"></label>
-                      <label>Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                      <legend>Business Information</legend>
+                     <label class="top">First Name*<input type="text" name="fname" required></label>
+                     <label class="top">Last Name*<input type="text" name="lname" required></label>
+                      <label class="top">Cell Number*<input type="tel" name="phone" required placeholder="1235551234"></label>
+                      <label class="top">Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                  
+                       <label class="top">Business Name*<input type="text" name="bname" required></label>
+                       <label class="top">Business Position<input type="text" name="position"></label>
+                        <label class="top"> Business description<br><textarea></textarea></label>
                   </fieldset>
                   <fieldset>
-                       <legend>Business Information</legend>
-                       <label>Business Name*<input type="text" name="bname" required></label>
-                       <label>Business Position<input type="text" name="position"></label>
-                        <label>Business description<input type="text" name="position"><textarea></textarea></label>
+                      <legend>Membership Selection</legend>
+                      <label class="sbs"><input type="radio" name="audience" value="np"> Non Profit</label>
+                      <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze</label>
+                      <label class="sbs"><input type="radio" name="audience" value="silver"> Silver</label>
+                      <label class="sbs"><input type="radio" name="audience" value="gold"> Gold</label>
                   </fieldset>
-                  <fieldset>
-                      <legend>Membership Information</legend>
-                      <div>Membership level</div>
-                      <label><input type="radio" name="audience" value="np">NP</label>
-                      <label><input type="radio" name="audience" value="bronze">Bronze</label>
-                      <label><input type="radio" name="audience" value="silver">Silver</label>
-                      <label><input type="radio" name="audience" value="gold">Gold</label>
-                  </fieldset>
-                  <input type="submit" value="Join Chamber">
+                    <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+                  <input type="submit" value="Join the Chamber" class="submitButton">
 
               </form>
-              <div>
-                  <h2>Membership Levels</h2>
-                  <h3>Non Profit</h3>
-                  <h3>Bronze</h3>
-                  <h3>Silver</h3>
-                  <h3>Gold</h3>
+              
+                  
+                  <div class="membership">
+                  <div class="np">
+                  <h3>Non Profit Membership - $100</h3>
+                  <p>Benefits include:</p>
+                  <ul>
+                      <li>Networking opportunities</li>
+                      <li>Access to events and trainings</li>
+                      <li>Listing on the chamber site</li>
+                  </ul>
+                  </div>
+                  <div class="bronze">
+                  <h3>Bronze Membership - $200</h3>
+                  <p>Benefits include:</p>
+                     <ul>
+                      <li>Networking opportunities</li>
+                      <li>Access to events and trainings</li>
+                      <li>Listing on the chamber site</li>
+                      <li>Ribbon cutting</li>
+                  </ul>
+                  </div>
+                  <div class="silver">
+                  <h3>Silver Membership - $300</h3>
+                  <p>Benefits include:</p>
+                   <ul>
+                      <li>Networking opportunities</li>
+                      <li>Access to events and trainings</li>
+                      <li>Listing on the chamber site</li>
+                      <li>Ribbon cutting</li>
+                      <li>Spotlight post on social media</li>
+                  </ul>
+                  </div>
+                  <div class="gold">
+                  <h3>Gold Membership - $400</h3>
+                  <p>Benefits include:</p>
+                  <ul>
+                      <li>Networking opportunities</li>
+                      <li>Access to events and trainings</li>
+                      <li>Listing on the chamber site</li>
+                      <li>Ribbon cutting</li>
+                      <li>Member spotlight post on social media</li>
+                      <li>Member spotlight on the chamber homepage</li>
+                  </ul>
+                  </div>
               </div>
           </main>
           

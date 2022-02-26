@@ -98,4 +98,12 @@ border: 1px solid #c5f0ec;
     grid-column: 2/3;
 }
 
+/*-----form-----*/
+form label.sbs{
+    padding: .4rem 0;
+}
+form label.top input, form label.top textarea{
+    width: 100%;
+}
+
 }
