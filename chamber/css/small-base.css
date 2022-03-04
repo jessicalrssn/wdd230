@@ -525,12 +525,13 @@ background-color: #cdb02d;
 
     .cards{
     display: block;
-    width: 95%;
+   
    
 } 
 
-   .directory-grid{
+.directory-grid{
        display: block;
+       margin-bottom: 20px;
    }
 
    .cards img{
@@ -574,7 +575,8 @@ div.list-view{
     border: none;
     padding: 10px;
     text-align: left;
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 .list-view section:nth-child(even){
     background-color: #c5f0ec4a;
