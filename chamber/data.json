@@ -5,14 +5,14 @@
         "address": "585 N Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(800) 946-5173",
         "website": "https://www.vacasa.com/usa/Bear-Lake",
-        "imageurl": "'https://jessicalrssn.github.io/wdd230/chamber/images/bearCountyCabins.svg"
+        "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/bearCountyCabins.svg"
     },
     {
       "name": "Bear Lake KOA Marina Side",
         "address": "485 N Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3454", 
         "website": "https://koa.com/campgrounds/bear-lake/",
-        "imageurl": "https://koa.com/Content/Images/koa-header-logo.png"
+        "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/koa.png"
     },
       {
       "name": "Ideal Beach Resort",
