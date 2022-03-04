@@ -512,3 +512,30 @@ background-color: #cdb02d;
     margin: 10px 0;
 }
 
+/*-------directory------*/
+.cards section{
+    border: 20px solid #2e7595;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    justify-items: center;
+    background-color: #c5f0ec;
+    color: #112a46;
+
+}
+
+      .cards{
+    display: block;
+   
+} 
+
+   .directory-grid{
+       display: block;
+   }
+
+   .cards img{
+      max-width: 120px;
+      
+   }
+
+

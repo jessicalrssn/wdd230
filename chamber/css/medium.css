@@ -135,4 +135,10 @@ form{
     grid-row: 2/3;
 }
 
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    width: 97%;
+}
 }

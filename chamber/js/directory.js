@@ -31,7 +31,7 @@ function displayDirectory(directory) { //create elements to add to the document
 
     let p3 = document.createElement('p');
   p3.textContent = `${directory.website}`;
-  card.appendChild(p2);
+  card.appendChild(p3);
 
   //add images
   let image = document.createElement('img');

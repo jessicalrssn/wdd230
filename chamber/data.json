@@ -4,91 +4,91 @@
         "name": "Bear Country Cabins",
         "address": "585 N Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(800) 946-5173",
-        "website": "https://www.vacasa.com/usa/Bear-Lake",
+        "website": "www.vacasa.com/usa/Bear-Lake",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/bearCountyCabins.svg"
     },
     {
       "name": "Bear Lake KOA Marina Side",
         "address": "485 N Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3454", 
-        "website": "https://koa.com/campgrounds/bear-lake/",
+        "website": "koa.com/campgrounds/bear-lake",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/koa.png"
     },
       {
       "name": "Ideal Beach Resort",
         "address": "2176 South Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3364",
-        "website": "https://idealbeachresort.com/",
+        "website": "idealbeachresort.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/idealBeach.png"
     },
       {
       "name": "Water's Edge Resort",
         "address": "88 S Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3550",
-        "website":"https://watersedgebearlake.com/",
-        "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/watersEdge.png"
+        "website":"watersedgebearlake.com",
+        "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/watersEdge.jpg"
     },
       {
       "name": "Lutz Construction",
         "address": "506 Dee Dr. Garden City, UT 84028",
         "phone":"(435) 946-8678" ,
-        "website": "https://diglutzconstruction.com/",
+        "website": "diglutzconstruction.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/lutz.png" 
     },
       {
       "name": "Pickleville Playhouse",
         "address": "2049 S Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-2918",
-        "website": "https://www.picklevilleplayhouse.com/",
+        "website": "www.picklevilleplayhouse.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/pickleville.png"  
     },
       {
       "name": "Bear Lake Realty",
         "address": "206 N Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-8888",
-        "website":"https://www.bearlakerealty.com/",
+        "website":"www.bearlakerealty.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/bearLakeRealty.webp" 
     },
       {
       "name": "Bear Lake Rentals",
         "address": "2126 S. Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-8611",
-        "website": "https://bearlakerentals.com/" ,
+        "website": "bearlakerentals.com" ,
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/bearLakeRentals.png"
     },
       {
       "name": "Epic Adventure Center",
         "address": "201 North Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3742",
-        "website":"https://www.epicrecreation.net/",
+        "website":"www.epicrecreation.net",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/epic.png" 
     },
       {
       "name": "Zipz",
         "address": "32 W 75 N Garden City, UT 84028",
         "phone":null,
-        "website":"https://www.zipzbearlake.com/",
+        "website":"www.zipzbearlake.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/zips.png" 
     },
       {
       "name": "Cafe Sabor",
         "address": "82 N. Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3297",
-        "website":"https://www.cafesabor.com/",
+        "website":"www.cafesabor.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/cafeSabor.png"  
     },
       {
       "name": "Mike's Market",
         "address": "485 N Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-4454",
-        "website":"https://www.mikes-markets.com/",
+        "website":"www.mikes-markets.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/mikes.png"  
     },
       {
       "name": "Bear Lake Monster Storage",
         "address": "85 N 395 W Garden City, UT 84028",
         "phone":"(801) 232-6095",
-        "website":"https://bearlakemonsterstorage.com/",
+        "website":"bearlakemonsterstorage.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/storage.png" 
     }
 ]
