@@ -41,7 +41,7 @@ nav{
     grid-column: 1/5;
     text-align: center;
     background-color: #2e7595;
-     width: 100%;
+    
      padding: 10px;
      color: white;
 }
@@ -523,7 +523,7 @@ background-color: #cdb02d;
 
 }
 
-      .cards{
+    .cards{
     display: block;
     width: 95%;
    
@@ -537,11 +537,50 @@ background-color: #cdb02d;
       max-width: 40%;
       
    }
+   
 
    .directoryh1{
     color: #112a46;
     font-size: 48px;
     text-align: center;
 }
+.listview-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.dirbtn:focus{
+    color: #2e7595;
+    border: 1px solid #2e7595
+}
+.listview-btn button{
+margin:10px;
+padding: 10px;
+color: #112a46;
+font-family: 'Archivo', sans-serif;
+}
+
+
+.list-view img{
+display: none;
+}
+
+div.list-view{
+    display: block;
+}
+
+.list-view section{
+    
+    border: none;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+}
+.list-view section:nth-child(even){
+    background-color: #c5f0ec4a;
+    
+    
+}
+
 
 

@@ -26,7 +26,7 @@
         "address": "88 S Bear Lake Blvd. Garden City, UT 84028",
         "phone":"(435) 946-3550",
         "website":"watersedgebearlake.com",
-        "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/watersEdge.jpg"
+        "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/watersEdge.png"
     },
       {
       "name": "Lutz Construction",
@@ -66,7 +66,7 @@
       {
       "name": "Zipz",
         "address": "32 W 75 N Garden City, UT 84028",
-        "phone":null,
+        "phone":"not listed",
         "website":"www.zipzbearlake.com",
         "imageurl": "https://jessicalrssn.github.io/wdd230/chamber/images/zips.png" 
     },

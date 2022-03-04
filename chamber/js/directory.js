@@ -43,4 +43,51 @@ function displayDirectory(directory) { //create elements to add to the document
   document.querySelector('div.cards').appendChild(card);
 
 }
+
+//list and grid buttons----------------------
+// Get the elements with class="column"
+//let grid = document.getElementsByClassName("cards");
+//let list = document.getElementsByClassName("list");
+
+// Declare a loop variable
+//let i;
+
+// List View
+//function listView() {
+  //for (i = 0; i < list.length; i++) {
+    //list[i].style.display = "block";
+    
+  //}
+//}
+
+// Grid View
+//function gridView() {
+  //for (i = 0; i < grid.length; i++) {
+    //grid[i].style.display='grid';
+  //}
+//}
+const cards = document.querySelector('.cards');
+const listbtn = document.querySelector("#list-btn");
+const gridbtn = document.querySelector("#grid-btn");
+
+listbtn.addEventListener("click", ()=> {
+    cards.classList.replace("grid-view", "list-view")
+});
+
+gridbtn.addEventListener("click", ()=> {
+    cards.classList.replace("list-view", "grid-view")
+});
+
+
+/* Optional: Add active class to the current button (highlight it) */
+let container = document.getElementById("listview-btn");
+let btns = container.getElementsByClassName("dirbtn");
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    let current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
  
