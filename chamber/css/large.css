@@ -116,7 +116,7 @@ form label.top input, form label.top textarea{
 } 
 .list-view section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 }
