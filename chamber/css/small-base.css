@@ -516,7 +516,6 @@ background-color: #cdb02d;
 .cards section{
     border: 20px solid #2e7595;
     margin: 5px;
-    padding: 20px;
     text-align: center;
     justify-items: center;
     background-color: #c5f0ec;
@@ -526,6 +525,7 @@ background-color: #cdb02d;
 
       .cards{
     display: block;
+    width: 95%;
    
 } 
 
@@ -534,8 +534,14 @@ background-color: #cdb02d;
    }
 
    .cards img{
-      max-width: 120px;
+      max-width: 40%;
       
    }
+
+   .directoryh1{
+    color: #112a46;
+    font-size: 48px;
+    text-align: center;
+}
 
 

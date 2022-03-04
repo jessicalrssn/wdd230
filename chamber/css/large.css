@@ -111,9 +111,9 @@ form label.top input, form label.top textarea{
 
      .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    width: 100%; 
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+    
 } 
 
 
