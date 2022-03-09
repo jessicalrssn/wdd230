@@ -28,10 +28,7 @@ if (t <= 50 && s > 3) {
 
 document.querySelector("#w").innerHTML = windchill;
 
-function windChill(temp, speed){
-     let a = Math.pow(speed, .16);
-               let f = 35.74 + 0.6215 * temp - 35.75 * a + 0.4275 * temp * a;
-               return f.toFixed(0);}
+
   
   });
 
