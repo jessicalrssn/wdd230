@@ -223,6 +223,12 @@ footer{
 footer .bottomFooter{
 text-align: center;
 }
+footer .attribution{
+text-align: center;
+}
+.attribution a{
+    color: #0d7085;
+}
 
 footer h2{
     font-size: 1.2rem;
