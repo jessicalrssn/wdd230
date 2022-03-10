@@ -4,11 +4,11 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-     document.querySelector('#t').textContent = jsObject.main.temp.toFixed(1);
+     document.querySelector('#t').textContent = jsObject.main.temp.toFixed(0);
 
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 const desc = jsObject.weather[0].description;
-const windspeed = jsObject.wind.speed;
+const windspeed = jsObject.wind.speed.toFixed(0);
 
 document.querySelector('#weathericon').setAttribute('src', iconsrc);
 document.querySelector('#weathericon').setAttribute('alt', desc);
