@@ -225,6 +225,7 @@ text-align: center;
 }
 footer .attribution{
 text-align: center;
+font-size: .8rem;
 }
 .attribution a{
     color: #0d7085;
