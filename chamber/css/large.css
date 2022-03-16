@@ -131,8 +131,5 @@ form label.top input, form label.top textarea{
 .board4{
     grid-column: 4/5;
 }
-.cinfo{
-    padding-top: 50px;
-    margin-top: 20px;
-}
+
 }

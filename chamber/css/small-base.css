@@ -386,7 +386,7 @@ display: block;
 .discoverGrid section h2{
     text-align: center;
     margin-top: 0px;
-    background-color: #2e7595;
+    background-color: #112a46;
     padding: 10px;
     color: white;
 }
@@ -612,7 +612,7 @@ div.list-view{
 }
 
 section.contactinfo{
-    background-color: #2e7595;
+    background-color: #112a46;
     
     color: white;
     align-items: center;
@@ -629,15 +629,7 @@ section.contactinfo{
     align-items: center;
 }
 
-.board1, .board2, .board3, .board4{
-    background-color:#c5f0ec;
-    color: #112a46;
-    text-align: center;
-    border: 20px solid #2e7595;
-  
-   
 
-}
 .cinfo{
     padding: 20px;}
    
