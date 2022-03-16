@@ -119,4 +119,20 @@ form label.top input, form label.top textarea{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
+.board1{
+    grid-column: 1/2;
+}
+.board2{
+    grid-column: 2/3;
+}
+.board3{
+    grid-column: 3/4;
+}
+.board4{
+    grid-column: 4/5;
+}
+.cinfo{
+    padding-top: 50px;
+    margin-top: 20px;
+}
 }
