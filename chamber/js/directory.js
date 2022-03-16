@@ -14,17 +14,16 @@ fetch(requestURL)
 function displayDirectory(directory) { //create elements to add to the document
   let card = document.createElement('section');
 
-  //make h2 contain prophets full name
   let h2 = document.createElement('h2');
   h2.textContent = `${directory.name}`;
   card.appendChild(h2);
 
-  //make p contain birth date
+
   let p1 = document.createElement('p');
   p1.textContent = ` ${directory.address}`;
   card.appendChild(p1);
 
-  //make p contain birth place
+  
   let p2 = document.createElement('p');
   p2.textContent = `${directory.phone}`;
   card.appendChild(p2);
@@ -44,28 +43,7 @@ function displayDirectory(directory) { //create elements to add to the document
 
 }
 
-//list and grid buttons----------------------
-// Get the elements with class="column"
-//let grid = document.getElementsByClassName("cards");
-//let list = document.getElementsByClassName("list");
 
-// Declare a loop variable
-//let i;
-
-// List View
-//function listView() {
-  //for (i = 0; i < list.length; i++) {
-    //list[i].style.display = "block";
-    
-  //}
-//}
-
-// Grid View
-//function gridView() {
-  //for (i = 0; i < grid.length; i++) {
-    //grid[i].style.display='grid';
-  //}
-//}
 const cards = document.querySelector('.cards');
 const listbtn = document.querySelector("#list-btn");
 const gridbtn = document.querySelector("#grid-btn");

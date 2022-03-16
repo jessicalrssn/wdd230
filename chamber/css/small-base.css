@@ -559,7 +559,7 @@ background-color: #cdb02d;
 }
 .dirbtn:focus{
     color: #2e7595;
-    border: 1px solid #2e7595
+    border: 1px solid #2e7595;
 }
 .listview-btn button{
 margin:10px;
@@ -594,5 +594,52 @@ div.list-view{
     font-size: 1.2rem;
 }
 
+.contacth1{
+    grid-column: 1/5;
+     color: #112a46;
+    font-size: 48px;
+    text-align: center;
+}
+.contactinfo{
+    grid-column: 1/3;
+    text-align: center;
+}
+.contactform{
+    grid-column: 3/5;
+    margin:10px;
+}
+.board{
+    grid-column: 1/5;
+    text-align: center;
+}
 
+section.contactinfo{
+    background-color: #2e7595;
+    
+    color: white;
+    align-items: center;
+   
+   
+    height: 96%;
+    margin:10px;
+
+
+    
+}
+
+.contactmain{
+    align-items: center;
+}
+
+.board1, .board2, .board3, .board4{
+    background-color:#112a46;
+    color: white;
+    text-align: center;
+    margin:20px;
+    padding-top: 40px;
+}
+.cinfo{
+    padding-top: 50px;
+    margin-top: 20px;
+}
 
