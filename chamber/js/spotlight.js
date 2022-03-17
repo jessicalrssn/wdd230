@@ -14,7 +14,7 @@ fetch(requestURL)
          golddirectory.forEach(displayDirectory);
 
         
-          spot1(golddirectory, directory)
+       
           
     });
 
