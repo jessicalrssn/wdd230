@@ -505,6 +505,10 @@ background-color: #cdb02d;
     line-height: 1.3rem;
     color: white;
 }
+.mb{
+   grid-column: 2/3;
+   color: #112a46;
+}
 
 /*Thanks*/
 .thanksh1, .thanksp{
