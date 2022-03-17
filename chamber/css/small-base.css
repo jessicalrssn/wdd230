@@ -607,6 +607,7 @@ div.list-view{
 }
 .contactform{
     grid-column: 1/3;
+    grid-row: 2/3;
     margin:10px;
 }
 
