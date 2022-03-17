@@ -7,7 +7,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);
+    
         const directory = jsonObject['directory'];
         // console.table(jsonObject); //temporary checking for valid response and data parsing
          const golddirectory = directory.filter(x => (x.level === "gold"));
