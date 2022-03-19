@@ -119,5 +119,7 @@ form label.top input, form label.top textarea{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
-
+.contactmain{
+    display: grid;
+}
 }
