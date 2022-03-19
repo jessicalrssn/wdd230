@@ -3,7 +3,7 @@ const apiURL= "https://api.openweathermap.org/data/2.5/weather?q=Logan&units=imp
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+   
      document.querySelector('#t').textContent = jsObject.main.temp.toFixed(0);
 
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;

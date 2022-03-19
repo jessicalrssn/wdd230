@@ -382,6 +382,7 @@ display: block;
 .discoverGrid section{
     color: #112a46;
     background-color: #c5f0ec;
+    margin-bottom: 10px;
 
 }
 .discoverGrid section h2{
