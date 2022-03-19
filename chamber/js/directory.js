@@ -7,7 +7,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const directory = jsonObject['directory'];
-        // console.table(jsonObject); //temporary checking for valid response and data parsing
+       
         directory.forEach(displayDirectory);
     });
 
@@ -57,15 +57,6 @@ gridbtn.addEventListener("click", ()=> {
 });
 
 
-/* Optional: Add active class to the current button (highlight it) */
-//let container = document.getElementById("listview-btn");
-//let btns = container.getElementsByClassName("dirbtn");
-//for (let i = 0; i < btns.length; i++) {
-  //btns[i].addEventListener("click", function() {
-    //let current = document.getElementsByClassName("active");
-    //current[0].className = current[0].className.replace(" active", "");
-    //this.className += " active";
-  //});
-//}
+
 
  
