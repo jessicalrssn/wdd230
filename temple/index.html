@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Temple inn & suites final project | WDD230 at BYU-I">
-    <title>Temple Inn & Suites</title>
+    <title>Temple Inn & Suites | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -13,35 +13,164 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script defer src=""></script> 
+    <script defer src="js/menu.js"></script> 
+    <script defer src="js/weather.js"></script>
 </head>
 <body>
   <header>
-            
-          <img class="logo" src="" alt="Temple Inn & Suites logo"/>
-         <div class="headings">
-          <h1>BEAR LAKE</h1>
-          <h2>Chamber of Commerce</h2>
+           <section class="upperHeader"> 
+               <div class="headings">
+          <img class="logo" src="#" alt="Temple Inn & Suites logo"/>
+         
+          <h1>Temple Inn & Suites</h1>
          </div>
          <div class="social">
-              <a href="https://facebook.com" target="_blank">
-                  <img src="images/facebook.png" alt="facebook logo">
+             <a class="facebook" href="https://facebook.com" target="_blank">
+                  <img src="images/facebook-64-green.png" alt="facebook logo" width="40px;">
               </a>
-               <a href="https://www.linkedin.com/" target="_blank">
-                  <img src="images/LinkedIn.png" alt="LinkedIn logo">
+              <a class="insta" href="https://instagram.com" target="_blank">
+                  <img src="images/instagram-64.png" alt="instagram logo" width="40px;">
               </a>
-          </div>
+               <a class="twitter" href="https://www.twitter.com/" target="_blank">
+                  <img src="images/twitter-64.png" alt="twitter logo" width="40px;">
+              </a>
+              <div class="icon">
+             <img class="phone" src="images/phone.png" alt="phone icon" width="20px;">
+              <p class="phonenum">(123) 456-7889</p>
+              </div>
+              </div>
+              </section>
+              
+         <div class="lowheader">     
         <nav>
             <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
           <ul id="primaryNav">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>           
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li> 
-                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="temples.html">Temples</a></li>           
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li> 
             </ul>
         </nav> 
+        </div>
          </header>
+         <main>
+             <div class="banner-grid">
+             <picture class= "banner">
+               <source media="(max-width: 34em)" srcset="images/bed-unsplash-small.jpg">
+               <source media="(max-width: 1140px)" srcset="images/bed-med.jpg">
+               <source media="(max-width: 1050px)" srcset="images/bed-unsplash.jpg">
+               <img src="images/bed-unsplash.jpg" alt = "Hotel Bed">
+              </picture>
+             <div class="headerOverlay">
+             <h2>Welcome to Temple Inn & Suites</h2>
+             <button class="overlayButton">Book Now!</button>
+             </div>
+             </div>
+             <div class="home-grid">
+             <div class="hello">
+                 <h2>Hello!</h2>
+                 <p>Welcome to Temple Inn & Suites, we’re glad you’re here! 
+                     Temple work is an important and exciting part of life for members of the Church of Jesus Christ of Latter Day Saints
+                      and we are pleased to serve you with many hotels located near some amazing temples throughout the world. 
+                      We cater to temple goers everywhere with our one of a kind services and accomodations.
+                       Whether you are here for a weekend wedding or a prolonged temple trip we hope you enjoy your stay with us! 
+                 </p>
+             </div>
+            <section class="featured">
+             <div class="temple-p">
+                 <h2>Featured Temple</h2>
+                 <h3>Rome Italy Temple</h3>
+                 <p>The Rome Italy temple was the thirteenth temple to be built in Europe and the first built in italy.
+                      It serves church members in Italy as well as Malta, Greece, Cyprus, Albania and parts of Romania.  
+                      The Rome temple was dedicated in March of 2019 and marked the first time in history when the entire
+                       first presidency and quorum of the twelve gathered to one location outside the United States. 
+                       This beautiful temple has been a long awaited blessing for the saints in Italy and the surrounding areas. 
+                 </p>
+             </div>
+             <div>
+                 <img class="home-temple-img" src="images/romeTemple.jpg" alt="picture of the temple">
+             </div>
+</section>
+             <section class="weather weather1">
+              <h3>Weather</h3>
+              <h4>Today: </h4>
+              <p><span id="t"></span>&#176; F</p>
+              <span id="icon-src"></span><figure><img src="#" alt="weather icon" id="weathericon" />  <figcaption></figcaption></figure>
+             <hr>
+              <p>Wind Speed: <span id="s"></span> mph</p>
+              <p>Windchill: <span id="w"></span></p>
+            </section>
+
+              <section class="weather weather3">
+                  
+                  <h3>3 Day Forcast</h3>
+                  
+                  <div class="day1">
+              <p><span id="t1"></span>&#176; F</p>
+              <span id="icon-src3"></span><figure><img src="#" alt="weather icon" id="weathericon3" />  <figcaption></figcaption></figure>
+             <hr>
+              <p>Wind Speed: <span id="s1"></span> mph</p>
+              <p>Windchill: <span id="w1"></span></p>
+              </div>
+              <div class="day2">
+              <p><span id="t2"></span>&#176; F</p>
+              <span id="icon-src3"></span><figure><img src="#" alt="weather icon" id="weathericon3" />  <figcaption></figcaption></figure>
+             <hr>
+              <p>Wind Speed: <span id="s2"></span> mph</p>
+              <p>Windchill: <span id="w2"></span></p>
+              </div>
+              <div class="day3">
+              <p><span id="t3"></span>&#176; F</p>
+              <span id="icon-src3"></span><figure><img src="#" alt="weather icon" id="weathericon3" />  <figcaption></figcaption></figure>
+             <hr>
+              <p>Wind Speed: <span id="s3"></span> mph</p>
+              <p>Windchill: <span id="w3"></span></p>
+              </div>
+            </section>
+             <div class="enjoy">
+                 <h2>Enjoy Your Stay!</h2>
+                <img src="images/door.jpg" alt="hotel room">
+                <img src="images/familyHistory.jpg" alt="hotel picture">
+                <img src="images/family.jpg" alt="hotel picture">
+
+             </div>
+             </div>
+            
+            <footer>
+                 <section class= "upperFooter">
+              <div class="left-side">
+            <h3>Temple Inn & Suites</h3>
+            <p class="address">4800 Montgomery Ln #300 <br>Bethesda, MD 20814</p>
+           </div>
+           <div class="middle-side">
+               <img class= "bottom-logo" src="#" alt= "Temple Inn & Suites logo"/>
+                <a href="https://facebook.com" target="_blank">
+                  <img src="images/facebook-64.png" alt="facebook logo" width="50">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                  <img src="images/instagram-64.png" alt="instagram logo" width="50">
+              </a>
+               <a href="https://www.twitter.com/" target="_blank">
+                  <img src="images/twitter-64.png" alt="Twitter logo" width="50">
+              </a>
+           </div>
+           <div class="right-side">
+               <p>templeinnsuites@gmail.com</p>
+               <p>(301) 123-4567</p>
+               <p>
+               <a class="map" href="https://goo.gl/maps/d4inSCSPYLnqrEwj6" target="blank">Location Map</a>
+            </p>
+            </div>
+        </section><hr>
+           <section class="bottomFooter">
+          &copy;
+            <span id=currentyear></span>
+            <span id="lastmod"></span>
+            <a class="attribute" href= "attributions.html">Attributions</a>
+           </section>
+           
+            </footer>
+         </main>
 
 
 </body>
