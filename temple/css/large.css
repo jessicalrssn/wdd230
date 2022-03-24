@@ -17,4 +17,14 @@
     justify-content: center;;
 }
 
+.featured{ 
+grid-column: 1/5;
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: #545b54;
+margin: 70px;
+padding: 30px;
+justify-content: center;
+
+}
 }

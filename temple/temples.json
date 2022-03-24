@@ -1,0 +1,64 @@
+{
+    "temples":[
+    {
+        "name": "Paris France Temple",
+        "address": "46 Boulevard Saint Antoine 78150 Le Chesnay France",
+        "phone":"(33) 970-73-70-00",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history":"", 
+        "ordinance":"By appointment",
+        "session":"By appointment",
+        "closures":"Saturday, 2 April 2022 (Limited Operations); Monday, 13 June 2022 - Monday, 22 August 2022; Saturday, 1 October 2022 (Limited Operations); Saturday, 24 December 2022; Saturday, 31 December 2022",
+        "imageurl": "https://jessicalrssn.github.io/wdd230/temple/images/#"
+       
+    },
+        {
+        "name": "Laie Hawaii Temple",
+        "address": "55-600 Naniloa Loop Laie HI 96762-2202 United States",
+        "phone":"(1) 808-293-2427",
+        "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "history":"", 
+        "ordinance":"By appointment",
+        "session":"By appointment",
+        "closures":"Friday, 1 April 2022 (Limited Operations); Saturday, 2 April 2022; Friday, 30 September 2022 (Limited Operations); Saturday, 1 October 2022; Thursday, 24 November 2022; Friday, 23 December 2022 (Limited Operations); Saturday, 24 December 2022 - Monday, 26 December 2022",
+        "imageurl": "https://jessicalrssn.github.io/wdd230/temple/images/#"
+    },
+        {
+        "name": "San Diego California Temple",
+        "address": "7474 Charmant Dr San Diego CA 92122-5000 United States",
+        "phone":"(1) 858-622-0991",
+        "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "history":"", 
+        "ordinance":"By appointment",
+        "session":"By appointment",
+        "closures":"Monday, 14 March 2022 - Monday, 28 March 2022; Saturday, 2 April 2022; Saturday, 1 October 2022; Wednesday, 23 November 2022 - Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022; Additional Informatio",
+        "imageurl": "https://jessicalrssn.github.io/wdd230/temple/images/#"
+       
+    },
+        {
+        "name": "Buenos Aires Argentina Temple",
+        "address": "Aut. Tte. Gral. Riccheri N° 4955 B1778DUA Ciudad Evita Buenos Aires, Argentina,",
+        "phone":"(54) 11-4693-9700",
+        "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "history":"", 
+        "ordinance":"By appointment",
+        "session":"By appointment",
+        "closures":"Saturday, 2 April 2022 (Limited Operations); Monday, 18 April 2022 - Monday, 2 May 2022; Wednesday, 18 May 2022 (Limited Operations); Saturday, 1 October 2022 (Limited Operations); Monday, 3 October 2022 - Monday, 17 October 2022; Saturday, 24 December 2022 - Sunday, 25 December 2022; Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "imageurl": "https://jessicalrssn.github.io/wdd230/temple/images/#"
+       
+    },
+      {
+        "name": "Rome Italy Temple",
+        "address": "Via di Settebagni 376 Rome RM Italy",
+        "phone":"(39) 06-9480-5050",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history":"", 
+        "ordinance":"By appointment",
+        "session":"By appointment",
+        "closures":"Monday, 28 February 2022 - Monday, 9 May 2022; Wednesday, 29 June 2022; Monday, 19 September 2022 - Monday, 3 October 2022; Saturday, 24 December 2022 - Monday, 26 December 2022; Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "imageurl": "https://jessicalrssn.github.io/wdd230/temple/images/#"
+       
+    }
+   
+]
+}

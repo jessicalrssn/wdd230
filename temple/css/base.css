@@ -11,12 +11,11 @@ main{
     display: grid;
     margin: 20px;
 }
-.logo{
-    grid-column: 1/2;
-}
+
+
 h1{
-    grid-column: 2/3;
-    margin: 0;
+    color: #474747;
+    font-size: 0em;
 }
 .social{
     display: grid;
@@ -28,6 +27,12 @@ h1{
 .icon{
     display: grid;
     grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top: 20px;
+}
+.social-icon{
+    grid-column: 4/5;
+    grid-row: 1/2;
 }
 .phone{
     grid-column: 1/2;
@@ -36,10 +41,12 @@ h1{
 }
 .phonenum{
     grid-column: 2/3;
+    grid-row: 1/2;
     margin: 0;
 }
 .facebook, .insta, .twitter{
     margin: 8px;
+    color: white;
 }
 .lowheader{
     display: grid;
@@ -127,8 +134,9 @@ ul#primarynav.open{
 /*--------------------------------------------*/
 /*----------footer----------------------------*/
 footer{
-    background-color: #474747;
-    color: white;
+    background-color: #eceae1;
+    color: #474747;
+    width: 100%;
 }
 .upperFooter{
     display: grid;
@@ -142,16 +150,26 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
    justify-content: center;
    width: 100%;
+   justify-items: center;;
+}
+.middle-side img{
+    margin: 5px;
 }
 .bottom-logo{
+    grid-column: 2/3; 
+}
+.bottom-socials{
     grid-column: 1/4;
+}
+.bottom-socials a{
+    color: #eceae1;
 }
 .bottomFooter{
     text-align: center;
     padding: 15px; 
 }
 .attribute, .map{
-    color:  #b7a42a;
+    color:  #545b54;
 }
 /*-------------------------------------------*/
 
@@ -172,7 +190,7 @@ footer{
 .headerOverlay h2{
   text-shadow: .5px .5px 5px #eceae1;
      margin-top: 0px;
-     margin-bottom: 50px;
+     margin-bottom: 40px;
      margin-left: 15px;
       margin-right: 15px;
 }
@@ -183,25 +201,29 @@ footer{
     background-color: #b7a42a;
        border: none;
   border-radius: 20px;
-  padding: .8rem 3rem .8rem 3rem;
+  padding: .8rem 2rem .8rem 2rem;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 20px;
   
 }
+button.overlayButton:hover{
+    background-color: #d5c348;
+}
 
 .home-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: block;
+  
 }
 .hello{
     grid-column: 2/4;
     text-align: center;
 }
 h2{
-    font-size: 2em;;
+    font-size: 1.5em;;
 }
+
 .hello p{
     font-size:1.2em;
     margin: 20px;
@@ -221,7 +243,7 @@ justify-content: center;
     color: white;
     padding-right: 30px;
 }
-.hone-temple-img{
+.home-temple-img{
     width: 100%; 
 }
 .temple-p h2, .temple-p h3{
@@ -234,10 +256,9 @@ justify-content: center;
     background-color:#eceae1;
 }
 .weather3{
-    grid-column: 2/5;
-    grid-row: 3/4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+    display: block;
+
      background-color:#eceae1;
 }
 .weather{
