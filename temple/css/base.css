@@ -140,7 +140,7 @@ footer{
 }
 .upperFooter{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
@@ -150,10 +150,13 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
    justify-content: center;
    width: 100%;
-   justify-items: center;;
+   justify-items: center;
 }
 .middle-side img{
     margin: 5px;
+}
+.left-side{
+    grid-row: 2/3;
 }
 .bottom-logo{
     grid-column: 2/3; 
@@ -225,7 +228,7 @@ h2{
 }
 
 .hello p{
-    font-size:1.2em;
+    font-size:1em;
     margin: 20px;
 }
 .featured{ 

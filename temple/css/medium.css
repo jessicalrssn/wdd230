@@ -49,6 +49,16 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.hello{
+    grid-column: 1/5;
+ font-size:1.2em;
+}
+.upperFooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-
+}
+.left-side{
+    grid-row: 1/2;
+}
 }

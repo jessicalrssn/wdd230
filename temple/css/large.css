@@ -27,4 +27,7 @@ padding: 30px;
 justify-content: center;
 
 }
+.hello{
+    grid-column: 2/4;
+}
 }
