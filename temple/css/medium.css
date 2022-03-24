@@ -61,4 +61,30 @@ h2{
 .left-side{
     grid-row: 1/2;
 }
+.enjoy img{
+    width: 100%;
+}
+
+.enjoy{
+    display: grid;
+    grid-column: 1/5;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.bottomimg1{
+    grid-row: 2/3;
+}
+.bottomimg2{
+    grid-row: 2/3;
+}
+.bottomimg3{
+    grid-row: 2/3;
+}
+.enjoy h2{
+    grid-column: 1/4;
+}
+.enjoy img{
+    width: 97%;
+}
 }

@@ -257,12 +257,12 @@ justify-content: center;
     grid-column: 1/2;
     grid-row: 3/4;
     background-color:#eceae1;
+    text-align: center;
 }
 .weather3{
-
     display: block;
-
      background-color:#eceae1;
+     text-align: center;
 }
 .weather{
     padding: 20px;
@@ -272,9 +272,12 @@ justify-content: center;
     grid-column: 1/4;
     text-align: center;
 }
+
+.enjoy img{
+    width: 100%;
+}
 .enjoy{
-    grid-column: 1/5;
-    text-align: center;;
+    display: block;
 }
 
 
