@@ -18,24 +18,29 @@ function displayTemples(temples) { //create elements to add to the document
   h2.textContent = `${temples.name}`;
   card.appendChild(h2);
 
-
-  let p1 = document.createElement('p');
-  p1.textContent = ` ${temples.address}`;
+ let p1 = document.createElement('p');
+  p1.textContent = `${temples.history}`;
   card.appendChild(p1);
 
-  
   let p2 = document.createElement('p');
-  p2.textContent = `${temples.phone}`;
+  p2.textContent = ` ${temples.address}`;
   card.appendChild(p2);
 
-    let p3 = document.createElement('p');
-  p3.textContent = `${temples.website}`;
+  
+  let p3 = document.createElement('p');
+  p3.textContent = `${temples.phone}`;
   card.appendChild(p3);
+
+    let p4 = document.createElement('p');
+  p4.textContent = `${temples.services}`;
+  card.appendChild(p4);
+
+  
 
   //add images
   let image = document.createElement('img');
-  image.src = directory.imageurl;
-  image.setAttribute('alt', directory.order);
+  image.src = temples.imageurl;
+  image.setAttribute('alt', temples.order);
   card.appendChild(image);
 
 
@@ -44,15 +49,4 @@ function displayTemples(temples) { //create elements to add to the document
 }
 
 
-const cards = document.querySelector('.cards');
-const listbtn = document.querySelector("#list-btn");
-const gridbtn = document.querySelector("#grid-btn");
-
-listbtn.addEventListener("click", ()=> {
-    cards.classList.replace("grid-view", "list-view")
-});
-
-gridbtn.addEventListener("click", ()=> {
-    cards.classList.replace("list-view", "grid-view")
-});
 
