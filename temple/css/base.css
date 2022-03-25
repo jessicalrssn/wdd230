@@ -236,9 +236,16 @@ grid-column: 1/5;
 display: grid;
 grid-template-columns: 1fr 1fr;
 background-color: #545b54;
-margin: 70px;
+
 padding: 30px;
 justify-content: center;
+
+}
+.featuredh2{
+ margin-top: 70px;  
+grid-column: 1/5;
+text-align: center;
+
 
 }
 
@@ -255,11 +262,12 @@ justify-content: center;
 }
 .weather1{
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 4/5;
     background-color:#eceae1;
     text-align: center;
 }
 .weather3{
+   
     display: block;
      background-color:#eceae1;
      text-align: center;
@@ -280,7 +288,15 @@ justify-content: center;
     display: block;
 }
 
+/*-----------------------------------------------*/
 
+/*----temple----------------------------------*/
+/*-----------------------------------------------*/
 
+/*----reservations----------------------------------*/
+/*-----------------------------------------------*/
+
+/*----services----------------------------------*/
+/*-----------------------------------------------*/
 
 
