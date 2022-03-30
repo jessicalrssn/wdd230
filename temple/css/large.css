@@ -35,5 +35,36 @@ justify-content: center;
         margin-left: 60px;
     margin-right: 60px;
 }
-
+.cards section{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 70px 20px 70px;
+}
+.cards p{
+    grid-column: 1/2;
+}
+.cards img{
+    grid-column: 2/3;
+    grid-row: 1/6;
+}
+.featured{ 
+grid-column: 1/5;
+grid-template-columns: 1fr 1fr;
+}
+.temple-p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.temple-p p{
+    grid-column: 1/4;
+}
+.featured h2{
+    grid-column: 1/5;
+}
+.temple-p button{
+    grid-column: 2/3;
+}
+.featured img{
+    grid-row: 1/2;
+}
 }
