@@ -291,6 +291,30 @@ text-align: center;
 /*-----------------------------------------------*/
 
 /*----temple----------------------------------*/
+.cards section{
+    margin: 5px;
+    background-color: #545b54;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+     .cards{
+    display: block;    
+}
+.cards p{
+    grid-column: 1/2;
+}
+.cards img{
+    grid-column: 2/3;
+    grid-row: 1/6;
+}
+
+.cards h2{
+    text-align: center;
+}
 /*-----------------------------------------------*/
 
 /*----reservations----------------------------------*/

@@ -23,16 +23,16 @@ function displayTemples(temples) { //create elements to add to the document
   card.appendChild(p1);
 
   let p2 = document.createElement('p');
-  p2.textContent = ` ${temples.address}`;
+  p2.textContent = `Address: ${temples.address}`;
   card.appendChild(p2);
 
   
   let p3 = document.createElement('p');
-  p3.textContent = `${temples.phone}`;
+  p3.textContent = `Phone: ${temples.phone}`;
   card.appendChild(p3);
 
     let p4 = document.createElement('p');
-  p4.textContent = `${temples.services}`;
+  p4.textContent = `Services: ${temples.services}`;
   card.appendChild(p4);
 
   
