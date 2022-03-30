@@ -250,8 +250,19 @@ text-align: center;
 }
 
 .temple-p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     color: white;
     padding-right: 30px;
+}
+.temple-p h3{
+    grid-column: 1/4;
+}
+.temple-p p{
+    grid-column: 1/4;
+}
+.temple-p button{
+    grid-column: 2/3;
 }
 .home-temple-img{
     width: 100%; 
@@ -260,6 +271,7 @@ text-align: center;
     text-align: center;
     margin: 15px;
 }
+
 .weather1{
     grid-column: 1/2;
     grid-row: 4/5;
