@@ -335,28 +335,31 @@ text-align: center;
     
 }
 .temple-blurb{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: block;
+    
 }
 .temple-blurb h2{
     grid-column: 1/5;
     margin-top: 30px;
 }
 .temple-blurb p{
-    font-size: 1.2em;
+    
     text-align: center;
     grid-column: 2/4;
     margin-bottom: 50px;
+    font-size:1em;
+    margin: 20px;
 }
 /*-----------------------------------------------*/
 
 /*----reservations----------------------------------*/
 fieldset{
-    margin: 2rem;
     border: 2px solid #b7a42a;
     border-radius: 10px;
     padding: 1em 2em;  
-    min-width: 200px;    
+    min-width: 100px;  
+    max-width: 400px;  
+    margin: auto;
 }
 legend{
     color: #474747;
@@ -373,26 +376,57 @@ label{
 label:first-of-type{
     margin-top: 0;
 }
-input{
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"],
+input[type="number"] {
     padding: .5em;
-    border: 1px solid #999;
-    width: 15em;
+    border: 1px solid #bdbbb4;
+    width: 10em;
+    background-color: #eceae1b5;
 }
 
 textarea{
     min-height: 8em;
-    min-width: 100%;
+    min-width: 97%;
     padding: .5em;
     border: 1px solid #999;
+    background-color: #eceae1b5;
+    border: 1px solid #bdbbb4;
 }
 select#location{
-    width: 15em;
+    width: 11em;
     padding: .5em;
-     border: 1px solid #999;
+     border: 1px solid #bdbbb4;
+     background-color: #eceae1b5;
 }
 
+.radioButton{
+    margin-bottom: 1em;
+}
 
-    
+.radioButton p{
+    margin-bottom: 0;
+}
+input[type="radio"] + label {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 1.5em;
+    margin-right: 0;
+}
+input.submitButton{
+    background-color: #b7a42a;
+       border: none;
+  border-radius: 20px;
+  padding: .8rem 2rem .8rem 2rem;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;   
+}
+.bookButton{
+    display: grid;
+    justify-items: center;
+}  
     
 
 /*-----------------------------------------------*/

@@ -67,4 +67,12 @@ grid-template-columns: 1fr 1fr;
 .featured img{
     grid-row: 1/2;
 }
+.temple-blurb p{
+    font-size: 1.2em;
+}
+.temple-blurb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 }

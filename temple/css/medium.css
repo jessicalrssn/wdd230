@@ -87,4 +87,16 @@ h2{
 .enjoy img{
     width: 97%;
 }
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"],
+input[type="number"] {
+   
+    width: 15em;  
+}
+select#location{
+    width: 16em;
+}
+fieldset{  
+    min-width: 200px;  
+    max-width: 500px;  
+}
 }
