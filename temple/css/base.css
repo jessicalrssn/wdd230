@@ -316,7 +316,7 @@ text-align: center;
     padding: 30px; 
     display: grid;
     grid-template-columns: 1fr;
-    margin: 20px 00px 20px 0px;
+    margin: 20px 0px 20px 0px;
     
 }
   
@@ -332,6 +332,7 @@ text-align: center;
 
 .cards h2{
     text-align: center;
+    
 }
 .temple-blurb{
     display: grid;
@@ -350,6 +351,50 @@ text-align: center;
 /*-----------------------------------------------*/
 
 /*----reservations----------------------------------*/
+fieldset{
+    margin: 2rem;
+    border: 2px solid #b7a42a;
+    border-radius: 10px;
+    padding: 1em 2em;  
+    min-width: 200px;    
+}
+legend{
+    color: #474747;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+  
+label{
+   display: block;
+    margin-top: 1em;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+input{
+    padding: .5em;
+    border: 1px solid #999;
+    width: 15em;
+}
+
+textarea{
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: 1px solid #999;
+}
+select#location{
+    width: 15em;
+    padding: .5em;
+     border: 1px solid #999;
+}
+
+
+    
+    
+
 /*-----------------------------------------------*/
 
 /*----services----------------------------------*/

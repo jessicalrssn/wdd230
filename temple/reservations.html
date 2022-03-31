@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/menu.js"></script> 
-    <script defer src="js/weather.js"></script>
 </head>
 <body>
   <header>
@@ -56,7 +55,43 @@
         </div>
          </header>
          <main>
+             <h2>Make a Reservation!</h2>
+<form method="get" action="thanks.html">
+         <fieldset>
+             <legend>Guest Info</legend>
+            <label class="guest" for="fname">First Name*<input type="text" name="fname" required></label>
+            <label class="guest" for="lname">Last Name*<input type="text" name="lname" required></label>
+            <label class="guest" for="phone">Phone*<input type="tel" name="phone" required placeholder="1235551234"></label>
+            <label class="guest" for="email">Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
+            <label class="guest" for="home">Home State or Country<input type="text" name="home"></label>   
+        </fieldset>
+  
+        <fieldset>
+             <legend>Trip Info</legend>
+               <label class="trip" for="location">Choose a Location: </label><select id="location" name="location">
+                    <option selected disabled>Select...</option>
+                    <option value="paris">Paris, France</option>
+                    <option value="hawaii">Laie Hawaii</option>
+                    <option value="california">San Diego California</option>
+                    <option value="argentina">Buenos Ares Argentina</option>
+                    <option value="rome">Rome Italy</option>
+                        </select>
+                <label class="trip" for="checkin">Check In: </label><input type="date" id="checkin" name="checkin">
+                <label class="trip" for="checkout">Check Out: </label><input type="date" id="checkout" name="checkout">
+                <label class="trip" for="quantity">Number of Persons: </label><input type="number" id="quantity" name="quantity" min="1" max="20">
+                <label class="trip" for="quantity">Number of Rooms: </label><input type="number" id="quantity" name="quantity" min="1" max="5">
+                <label class="trip"> Special Accommodations<br><textarea></textarea></label>  
+        </fieldset>
+        <fieldset>  
+            <legend>Room Preference</legend>  
+            <div class="radio">    
+                <label class="room"><input type="radio" name="roomtype" value="rooms"> Room</label>
+                <label class="room"><input type="radio" name="roomtype" value="suite"> Suite</label>
+                </div> 
+        </fieldset>
+                  <input type="submit" value="Book My Stay" class="submitButton">
 
+              </form>
          </main>
 
            <footer>
