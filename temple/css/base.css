@@ -281,14 +281,17 @@ text-align: center;
 .weather1{
     grid-column: 1/2;
     grid-row: 4/5;
-    background-color:#eceae1;
+     border: 2px solid #b7a42a;
+    border-radius: 10px;
     text-align: center;
 }
 .weather3{
    
     display: block;
-     background-color:#eceae1;
+ 
      text-align: center;
+      border: 2px solid #b7a42a;
+    border-radius: 10px;
 }
 .weather{
     padding: 20px;
@@ -304,6 +307,7 @@ text-align: center;
 }
 .enjoy{
     display: block;
+    margin: 20px;
 }
 
 /*-----------------------------------------------*/
@@ -427,11 +431,92 @@ input.submitButton{
     display: grid;
     justify-items: center;
 }  
-    
+.reservepics img{
+    width: 100%;
+}
+.reservepics{
+    display: block;
+    margin-top: 30px;
+}
 
 /*-----------------------------------------------*/
 
 /*----services----------------------------------*/
+.serviceButton{
+     background-color: #b7a42a;
+       border: none;
+  border-radius: 20px;
+  padding: .8rem 2rem .8rem 2rem;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;  
+}
+
+.reception, .missionary{
+    grid-column: 1/4;
+    background-color: #545b54;
+    color: white;
+    padding: 30px;
+    margin: 10px 70px 10px 70px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mainGrid h3{
+    font-size: 1.5em;
+}
+.amenities, .services{
+    border: 2px solid #b7a42a;
+    border-radius: 10px;
+    margin: 20px 10px 0px 10px;;
+    padding: 20px;
+}
+.amenities h3, .services h3{
+    text-align: center;
+}
+.reception img, .missionary img{
+    grid-column: 2/3;
+    width: 100%;
+
+}
+.reception h3, .missionary h3{
+    grid-column: 1/2;
+}
+.reception button, .missionary button{
+    justify-content: center;
+    margin: auto;
+}
+.reception p, .missionary p{
+    grid-column: 1/2;
+    text-align: left;
+    padding-right: 30px;
+}
+.servicegrid{
+display: block;
+}
+.serviceul ul, .amenitiesul ul, .reception ul, .missionary ul{
+    line-height: 2em;
+}
+.reception ul, .missionary ul{
+    text-align: left;
+}
+.serviceform{
+    margin-bottom: 10px;
+}
+.serviceform label{
+   display: block;
+    margin-top: 1em;
+}
+input.submitButton.servicebutton {
+    margin-top: 20px;
+}
+
+
 /*-----------------------------------------------*/
 
 

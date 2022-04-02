@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="attributions page for Temple Inn & Suites | WDD230 at BYU-I">
-    <title>Attributions | Temple Inn & Suites</title>
+    <meta name="description" content="Wedding receptions at Temple inn & suites | WDD230 at BYU-I">
+    <title>Receptions | Temple Inn & Suites</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -47,18 +47,67 @@
             <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
           <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="temples.html">Temples</a></li>           
+                <li ><a href="temples.html">Temples</a></li>           
                 <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="services.html">Services</a></li> 
+                <li class="active"><a href="services.html">Services</a></li> 
             </ul>
         </nav> 
         </div>
          </header>
          <main>
-            <p>churchofjesuschrist.org for images and temple information</p>
-            <p>unsplash.com for images</p>
-            <p>churchofjesuschristtemples.org for temple information</p>
-            <p>openweathermap.org for weather</p>
+             <div class="temple-blurb">
+             <h2>Receptions!</h2>
+             <p>Temple Inn & Suites is happy to offer wedding reception accommodations! 
+                 We have receptions halls in each of our hotels that can be easily customized to your needs.
+                  We also offer a simple catering menu or access to the kitchen for food preperation and serving.
+             </p>
+             </div>
+             <div class="servicegrid">
+            
+             <div class="amenities">
+                 
+        
+                 <h3>Reception Offerings</h3>
+                 <ul>
+                     <li><strong>Reception hall: </strong>Our beautiful reception hall has an open floor plan and 
+                        can be set up in a variety of layouts to fit your needs. capacity: 140-200 people depending 
+                        on location.</li><br>
+                     <li><strong>Decor options: </strong>We have a variety of simple decor items in many color options to 
+                        make your reception unique to you.
+                    </li><br>
+                     <li><strong>Set up and take down services: </strong>Our staff is available to set up and take down
+                    tables and decor.</li><br>
+                     <li><strong>Simple catering Menu: </strong>We offer a light refreshment menu to be catered by the hotel.</li><br>
+                     <li><strong>Access to kitchen for food prep and serving: </strong>We allow you tobring your own refreshments 
+                        or outside catering and give access to the kitchen for those needs.</li><br>
+                     <li><strong>Technology: </strong>A sound system, microphones, and a projection screen is included in the reception hall.</li>
+                 </ul>
+                
+             </div>
+<form method="get" action="thanks.html">
+         <fieldset>
+             <legend>Contact Us!</legend>
+            <label class="guest">*Name</label><input type="text" name="fname" required>
+            <label class="guest">*Phone</label><input type="tel" name="phone" required placeholder="1235551234">
+            <label class="guest">*Email</label><input type="email" name="email" required placeholder="someone@gmail.com">
+            <label class="trip"> Question/Concern<br><textarea></textarea></label>  
+             <input type="submit" value="Contact Us!" class="submitButton servicebutton">   
+        </fieldset>
+            </div>
+            <div class="enjoy">
+                 <section class="bottomimg1">
+                <img  src="images/venue.jpg" alt="family with family history missionaries">
+                </section>
+                <section class="bottomimg2">
+                <img  src="images/cupcakes.jpg" alt="cinnamon rolls for breakfast">
+                </section>
+                <section class="bottomimg3">
+                <img  src="images/bridegroom.jpg" alt="hotel pool">
+                </section>
+
+             </div>
+             
+
          </main>
 
            <footer>
