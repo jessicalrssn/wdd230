@@ -16,12 +16,16 @@ main{
 h1{
     color: #474747;
     font-size: 0em;
+    margin-bottom: 0;
+    margin-left: 10px;
+    align-items: center;
 }
 .social{
     display: grid;
     grid-column: 4/5;
     justify-content: right;
     align-items: center;
+    margin-top: 30px;
 
 }
 .icon{
