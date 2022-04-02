@@ -240,6 +240,7 @@ background-color: #545b54;
 
 padding: 30px;
 justify-content: center;
+ align-items: center;
 
 }
 .featured h2{
@@ -249,6 +250,7 @@ text-align: center;
 }
 .featured img{
     grid-row: 2/3;
+    
 }
 .featuredhead{
     grid-row: 2/3;
@@ -272,6 +274,7 @@ text-align: center;
 }
 .home-temple-img{
     width: 100%; 
+   
 }
 .temple-p h2, .temple-p h3{
     text-align: center;
@@ -363,7 +366,7 @@ fieldset{
     padding: 1em 2em;  
     min-width: 100px;  
     max-width: 400px;  
-    margin: auto;
+    margin: 10px;
 }
 legend{
     color: #474747;
@@ -458,14 +461,13 @@ input.submitButton{
     background-color: #545b54;
     color: white;
     padding: 30px;
-    margin: 10px 70px 10px 70px;
+   margin: 10px 0 10px 0;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
+    align-items: center;
 }
 .mainGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
 }
 .mainGrid h3{
     font-size: 1.5em;
@@ -473,8 +475,8 @@ input.submitButton{
 .amenities, .services{
     border: 2px solid #b7a42a;
     border-radius: 10px;
-    margin: 20px 10px 0px 10px;;
     padding: 20px;
+    margin: 10px;
 }
 .amenities h3, .services h3{
     text-align: center;
@@ -506,7 +508,7 @@ display: block;
     text-align: left;
 }
 .serviceform{
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .serviceform label{
    display: block;
@@ -515,7 +517,9 @@ display: block;
 input.submitButton.servicebutton {
     margin-top: 20px;
 }
-
+button.serviceButton{
+    margin-bottom: 20px;
+}
 
 /*-----------------------------------------------*/
 

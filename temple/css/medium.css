@@ -97,7 +97,8 @@ select#location{
 }
 fieldset{  
     min-width: 200px;  
-    max-width: 500px;  
+    max-width: 500px;
+    margin: auto;  
 }
 .reservepics{
     display: grid;
@@ -106,5 +107,11 @@ fieldset{
     margin-right: 60px;
     margin-left: 60px;
 }
-
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.reception, .missionary{
+     margin: 10px 70px 10px 70px;
+}
 }
