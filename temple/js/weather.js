@@ -3,7 +3,7 @@ const apiURL1= "https://api.openweathermap.org/data/2.5/weather?q=Rome,It&units=
 fetch(apiURL1)
   .then((response) => response.json())
   .then((jsObject) => {
-   
+   console.log(jsObject);
      document.querySelector('#t').textContent = jsObject.main.temp.toFixed(0);
 
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
