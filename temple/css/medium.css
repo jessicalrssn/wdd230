@@ -72,6 +72,9 @@ h2{
     margin-left: 20px;
     margin-right: 20px;
 }
+.cards section{
+    margin: 20px;
+}
 .bottomimg1{
     grid-row: 2/3;
 }
@@ -113,5 +116,8 @@ fieldset{
 }
 .reception, .missionary{
      margin: 10px 70px 10px 70px;
+}
+.featured{
+    margin:20px;
 }
 }
