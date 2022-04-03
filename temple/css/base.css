@@ -188,7 +188,7 @@ footer{
 
 .headerOverlay{
     position: absolute;
-      top: 300px;
+      top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
