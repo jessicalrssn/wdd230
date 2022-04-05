@@ -320,6 +320,14 @@ text-align: center;
     display: block;
     margin: 20px;
 }
+.day3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.day2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
 /*-----------------------------------------------*/
 

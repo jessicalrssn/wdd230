@@ -11,19 +11,30 @@ fetch(apiURL)
      document.querySelector('#h2').textContent= jsObject.daily[2].humidity;
      document.querySelector('#h3').textContent= jsObject.daily[3].humidity;
 
+//const iconsrc= jsObject.daily[1].weather[0].icon;
+const iconsrc= `https://openweathermap.org/img/w/${jsObject.daily[1].weather[0].icon}.png`;
+const iconsrc2= `https://openweathermap.org/img/w/${jsObject.daily[2].weather[0].icon}.png`;
+const iconsrc3= `https://openweathermap.org/img/w/${jsObject.daily[3].weather[0].icon}.png`;
+const desc1 = jsObject.daily[1].weather[0].description;
+const desc2 = jsObject.daily[2].weather[0].description;
+const desc3 = jsObject.daily[3].weather[0].description;
 
-const iconsrc1= `http://openweathermap.org/img/wn/10d@2x.png${jsObject.daily.weather[0].icon}.png`;
-const desc = jsObject.daily.weather.description;
+document.querySelector('#weathericon1').setAttribute('src', iconsrc);
+document.querySelector('#weathericon2').setAttribute('src', iconsrc2);
+document.querySelector('#weathericon3').setAttribute('src', iconsrc3);
 
 
-document.querySelector('#weathericon1').setAttribute('src', iconsrc1);
-document.querySelector('#weathericon1').setAttribute('alt', desc);
-document.querySelector('figcaption').textContent = desc;
+document.querySelector('#weathericon1').setAttribute('alt', desc1);
+document.querySelector('#weathericon2').setAttribute('alt', desc2);
+document.querySelector('#weathericon3').setAttribute('alt', desc3);
+document.querySelector('figcaption').textContent = desc1;
+document.querySelector('figcaption').textContent = desc2;
+document.querySelector('figcaption').textContent = desc3;
 
 
 
   });
 
-
+//const iconsrc1= `http://openweathermap.org/img/wn/${jsObject.daily[1].weather[0].icon}.png`;
 
 
