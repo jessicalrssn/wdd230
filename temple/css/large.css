@@ -86,6 +86,10 @@ grid-template-columns: 2fr 1fr;
 fieldset{
     margin:auto;
 }
+.attributions{
+    margin:auto;
+    padding: 10px;
+}
 
 
 }
