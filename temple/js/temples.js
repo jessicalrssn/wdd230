@@ -43,12 +43,6 @@ function displayTemples(temples) { //create elements to add to the document
   image.setAttribute('alt', temples.order);
   card.appendChild(image);
 
-  let like = document.createElement('img');
-  image.src = temples.imageurl;
-  image.setAttribute('alt', temples.order);
-  card.appendChild(image);
-
-
   document.querySelector('div.cards').appendChild(card);
 
 }

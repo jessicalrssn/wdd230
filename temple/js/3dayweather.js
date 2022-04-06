@@ -3,7 +3,7 @@ const apiURL= "https://api.openweathermap.org/data/2.5/onecall?lat=41&lon=12&uni
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-      console.log(jsObject);
+  
      document.querySelector('#t1').textContent = jsObject.daily[1].temp.day.toFixed(0);
      document.querySelector('#t2').textContent = jsObject.daily[2].temp.day.toFixed(0);
      document.querySelector('#t3').textContent = jsObject.daily[3].temp.day.toFixed(0);
@@ -35,6 +35,6 @@ document.querySelector('figcaption').textContent = desc3;
 
   });
 
-//const iconsrc1= `http://openweathermap.org/img/wn/${jsObject.daily[1].weather[0].icon}.png`;
+
 
 
